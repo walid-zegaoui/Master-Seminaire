@@ -1,35 +1,35 @@
-Link of the Method GFPGAN : 
+Liens de la méthode GFPGAN : 
 * https://xinntao.github.io/projects/gfpgan 
 * https://github.com/TencentARC/GFPGAN
  
  
-Steps to run the scripts:
+Etape a suivre pour executer le script:
 
-1- Download the folder **GFPGAN-master**
+1- Telecharger le dossier **GFPGAN-master**
 
-2- Install Pytorch from https://pytorch.org/get-started/locally/ or use this command:
+2- Installer Pytorch a partir de https://pytorch.org/get-started/locally/ ou utiliser cette commande:
 
 *pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113*
 
-3- Install libraries : 
+3- Installer les librairies : 
   * pip install opencv-python scipy tqdm yapf lmdb pyyaml
   * pip install opencv-python-headless==4.5.2.52
   * pip install basicsr facexlib realesrgan
  
-4- Execute this command : python setup.py develop
+4- Execute la commande : python setup.py develop
   
-Download pre-trained models: (put them in the directory: .../GFPGAN-master/experiments/pretrained_models)
+Telecharger les pre-trained models: (mettez-les dans le repertoire suivant: .../GFPGAN-master/experiments/pretrained_models)
 * Version 1.3: https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth
 * Version 1.2: https://github.com/TencentARC/GFPGAN/releases/download/v0.2.0/GFPGANCleanv1-NoCE-C2.pth
 
-Put the inputs images on the directory: .../GFPGAN-master/inputs/whole_imgs
+Mettez les images inputs dans le repertoire suivant: .../GFPGAN-master/inputs/whole_imgs
 
-Run this command to execute the script: 
+Executer l'une des commandes suivantes: 
 * python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.3 -s 2 (Version 1.3)
 * python inference_gfpgan.py -i inputs/whole_imgs -o results -v 1.2 -s 2 (Version 1.2)
 
 
-The results will be in the directory: .../GFPGAN-master/results
+Les resultats seront dans le repertoire suivant: .../GFPGAN-master/results
 
 
 # **IMPORTANT**: 
