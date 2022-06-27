@@ -36,7 +36,7 @@ Les resultats seront dans le répertoire : .../GFPGAN-master/results
 
 Il faut un gpu pour exécuter la version v1 en local, c'est la version de l'article, celle que nous avons utilisé.
 Vous pouvez tester cette version sur colab:
-* https://colab.research.google.com/drive/1dPUczC-XuVol4t4s1UMWoh23bnlPWYAf
+* https://colab.research.google.com/drive/1Oa1WwKB4M4l1GmR7CtswDVgOCOeSLChA?usp=sharing
 
 Les versions v1.2 et v1.3 de la technique peuvent être exécuté en local sans gpu. Elle donnent des résultats différents
 par exemple elle ne font pas la colorisation.
